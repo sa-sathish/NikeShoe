@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B857161B262DFE2C00228788 /* ProductDetaileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B857161A262DFE2C00228788 /* ProductDetaileView.swift */; };
+		B857161F262E07C900228788 /* ShoesSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B857161E262E07C800228788 /* ShoesSize.swift */; };
 		B8D73DAF262CAF3300D09F53 /* NIkeShoeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D73DAE262CAF3300D09F53 /* NIkeShoeApp.swift */; };
 		B8D73DB1262CAF3300D09F53 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D73DB0262CAF3300D09F53 /* ContentView.swift */; };
 		B8D73DB3262CAF3400D09F53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D73DB2262CAF3400D09F53 /* Assets.xcassets */; };
 		B8D73DB6262CAF3400D09F53 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8D73DB5262CAF3400D09F53 /* Preview Assets.xcassets */; };
+		B8D73DC4262CB88B00D09F53 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D73DC3262CB88B00D09F53 /* ProductView.swift */; };
+		B8D73DC8262CBEEF00D09F53 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D73DC7262CBEEF00D09F53 /* HeaderView.swift */; };
+		B8D73DCB262CBEF900D09F53 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D73DCA262CBEF900D09F53 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B857161A262DFE2C00228788 /* ProductDetaileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetaileView.swift; sourceTree = "<group>"; };
+		B857161E262E07C800228788 /* ShoesSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoesSize.swift; sourceTree = "<group>"; };
 		B8D73DAB262CAF3300D09F53 /* NIkeShoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NIkeShoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8D73DAE262CAF3300D09F53 /* NIkeShoeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIkeShoeApp.swift; sourceTree = "<group>"; };
 		B8D73DB0262CAF3300D09F53 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8D73DB2262CAF3400D09F53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8D73DB5262CAF3400D09F53 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B8D73DB7262CAF3400D09F53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8D73DC3262CB88B00D09F53 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		B8D73DC7262CBEEF00D09F53 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		B8D73DCA262CBEF900D09F53 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +62,12 @@
 		B8D73DAD262CAF3300D09F53 /* NIkeShoe */ = {
 			isa = PBXGroup;
 			children = (
+				B857161E262E07C800228788 /* ShoesSize.swift */,
+				B8D73DCA262CBEF900D09F53 /* SearchView.swift */,
+				B8D73DC7262CBEEF00D09F53 /* HeaderView.swift */,
 				B8D73DAE262CAF3300D09F53 /* NIkeShoeApp.swift */,
+				B8D73DC3262CB88B00D09F53 /* ProductView.swift */,
+				B857161A262DFE2C00228788 /* ProductDetaileView.swift */,
 				B8D73DB0262CAF3300D09F53 /* ContentView.swift */,
 				B8D73DB2262CAF3400D09F53 /* Assets.xcassets */,
 				B8D73DB7262CAF3400D09F53 /* Info.plist */,
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D73DC8262CBEEF00D09F53 /* HeaderView.swift in Sources */,
+				B857161F262E07C900228788 /* ShoesSize.swift in Sources */,
+				B8D73DC4262CB88B00D09F53 /* ProductView.swift in Sources */,
 				B8D73DB1262CAF3300D09F53 /* ContentView.swift in Sources */,
+				B8D73DCB262CBEF900D09F53 /* SearchView.swift in Sources */,
 				B8D73DAF262CAF3300D09F53 /* NIkeShoeApp.swift in Sources */,
+				B857161B262DFE2C00228788 /* ProductDetaileView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
